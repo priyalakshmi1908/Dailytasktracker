@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Team Meeting",
+    "date": "2025-06-23",
+    "start": "10:00",
+    "duration": "01:00",
+    "color": "bg-green-300"
+  },
+  {
+    "id": 2,
+    "title": "Doctor Appointment",
+    "date": "2025-06-23",
+    "start": "10:30",
+    "duration": "00:30",
+    "color": "bg-gray-100"
+  },
+  {
+    "id": 3,
+    "title": "Project Review",
+    "date": "2025-07-24",
+    "start": "15:00",
+    "duration": "01:00",
+    "color": "bg-yellow-200"
+  },
+  {
+    "id": 4,
+    "title": "Meeting",
+    "date": "2025-06-24",
+    "start": "12:00",
+    "duration": "02:00",
+    "color": "bg-yellow-200"
+  },
+  {
+    "id": 5,
+    "title": "Going to Shopping",
+    "date": "2025-06-23",
+    "start": "12:00",
+    "duration": "03:00",
+    "color": "bg-blue-300"
+  },
+  {
+    "id": 6,
+    "title": "Meditation class",
+    "date": "2025-06-13",
+    "start": "06:00",
+    "duration": "1:00",
+    "color": "bg-green-300"
+  }
+]

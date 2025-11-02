@@ -1,0 +1,308 @@
+@import "tailwindcss";
+
+
+.adjust{
+    margin-left: 10px;
+}
+
+.bor-color{
+    border: 2px solid rgba(0, 0, 0, 0.632);
+    box-shadow: 0 0 10px black;
+    padding-left: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.eventspage{
+    height: auto;
+    width: 33%;
+    float: right;
+    margin-left: 50px;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.eventfont{
+    position: relative;
+    background-color: rgb(4, 23, 62);
+    height: 89.9vh;
+    width: 100%;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+
+
+.popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    box-shadow: 0 0 200px black;
+}
+
+.popup input{
+    height: 50px;
+    border: none;
+    /* border-left: 4px solid; */
+    background-color: rgba(128, 128, 128, 0.292);
+}
+
+
+.eventsBorder{
+    border-bottom: 5px solid;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.AddEventbtn{
+    display: flex;
+    justify-self: center;
+}
+
+.popupEvents{
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+.popupDetails{
+    box-shadow: 0 0 1px black;
+    height: 60%;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.PopupEventDetails{
+  height: 60%;
+  max-height: 600px;
+  /* padding-bottom: 60%; */
+  overflow-y: auto;
+}
+
+.closeBTN{
+  width: auto;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.4s ease-out;
+}
+
+.bground{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.backimg {
+  background-image: url('https://img.freepik.com/premium-photo/free-vector-gradient-blur-red-pink-blue-abstract-background_696747-163.jpg');
+  background-color: rgba(255, 255, 255, 0.571); /* Add this line */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten; /* or 'overlay', 'multiply', etc. */
+}
+
+.calenderString{
+    width:50%;
+    z-index: 10;
+}
+
+.calenderString2{
+    width: 50%;
+    z-index: 10;
+}
+
+.Cstring{
+    position: relative;
+    margin-top: -45px;
+    top: 3%;
+}
+
+
+
+.maincontainer{
+    
+    height: 100vh;
+}
+
+@media (max-width: 2001px) {
+  .eventfont{
+    width: 365px;
+  }
+}
+
+@media (max-width: 990px) {
+  .eventfont{
+    width: 300px;
+  }
+}
+
+@media (max-width: 890px) {
+  .eventfont{
+    width: 260px;
+  }
+}
+@media (max-width: 790px) {
+  .eventfont{
+    width: 210px;
+  }
+}
+
+@media (max-height: 600px){
+  .closeBTN{
+    position: absolute;
+    top:10px;
+    left: 83%;
+    height: 10%;
+    min-height: 30px;
+    min-width: 40px;
+    width: 12%;
+    padding-top: 0.7%;
+  }
+}
+
+.formBox{
+  height: 70%;
+  overflow-y: auto;
+}
+.togglebtn{
+  display: none;
+}
+.toggellabel{
+  display: none;
+}
+.dateBox{
+  overflow: hidden;
+}
+.gridouter{
+  height: 85%;
+  overflow-y: auto;
+}
+.formBox input{
+    background-color: rgb(249, 223, 223);
+    border-left: 3px solid black;
+  }
+
+  .labelcolor{
+    font-size: 13px;
+  }
+
+  .colorbtn{
+    margin-left: 3px;
+  }
+
+  .dateHead{
+    font-size: 40px;
+    width: 45%;
+  }
+  .gridDate2{
+    padding: 0;
+  }
+
+@media (max-width:460px){
+  .eventspage{
+    width: 0;
+    margin-left: 0;
+  }
+  .eventfont{
+    position: relative;
+    transform: translateX(10%);
+    font-size: 10px;
+    height: 70vh;
+    margin-bottom: 50px;
+  }
+  .eventsBorder{
+    border-bottom: 1px solid white;
+  }
+  .AddEventbtn{
+    font-size: 22px;
+  }
+  .eventtitle{
+    font-size: 13px;
+  }
+  .dateHead{
+    font-size: 20px;
+    width: 29.8%;
+  }
+  .adjust{
+    padding: 2px;
+    width: 35px;
+    font-size: 20px;
+  }
+  .Cstring{
+    margin-top: 10px;
+    top:1%;
+  }
+  .dateBox{
+    height: 73%;
+    padding-left: 10px;
+    overflow: hidden;
+    padding-right: 10px;
+  }
+  .gridDate{
+    font-size: 15px;
+  }
+  .gridDate2{
+    height: 80px;
+  }
+  .datefont{
+    font-size: 12px;
+  }
+  .gridouter{
+    height: 75.3%;
+    overflow-y: auto;
+  }
+  .moved {
+    transform: translateX(-94.3%);
+    color: white;
+  }
+  .toggellabel{
+    display: block;
+    position: relative;
+    z-index: 50;
+    left: 30%;
+    font-size: 26px;
+  }
+  .menuimg{
+    width: 20px;
+  }
+  .PopUpBox{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .AddEventbtn{
+    font-size: 15px;
+  }
+  .formBox{
+    width: 100%;
+    height: auto;
+    z-index: 60;
+  }
+  .eventdatas{
+    font-size: 6px;
+    padding: 0;
+    width: 100%;
+    border-radius: 2px;
+    padding: 1px;
+  }
+  
+}
